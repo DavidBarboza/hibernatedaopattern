@@ -21,7 +21,7 @@ public class App {
         bookService.persist(book2);
         bookService.persist(book3);
         
-        //list books
+        //list all books
         List<Book> books1 = bookService.findAll();
         System.out.println("Books Persisted are :");
         for (Book b : books1) {
